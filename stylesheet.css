@@ -24,21 +24,248 @@ font-weight: 400;}
 
 li a:hover {
   background-color: #5FA66B;
+    
 }
+
+
+/*hover effect*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 40;
+  bottom: 0;
+  left: 48px;
+  right: 0;
+  height: 250px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A58FC3;
+z-index: 2;
+}
+
+
+.container:hover .overlay {
+  opacity: 0.95;
+    transition: .5s ease;
+}
+
+.container .image {
+display: block;
+  width: 400px;
+  height: auto;
+    padding-top: 40px;
+     padding-left: 48px;
+}
+
+.text {
+  color: #EDF6E9;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+  font-size: 30px;
+    opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.image:hover {
+    opacity: 0.3;
+    transition: .5s ease;
+}
+
+
+
+/*container2*/
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.container2:hover .overlay2 {
+  opacity: 0.95;
+    transition: .5s ease;
+}
+
+.container2 .image {
+display: block;
+  width: 400px;
+  height: auto;
+ top: -100px;
+    padding-left: 500px;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 500px;
+  right: 0;
+  height: 250px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5FA66B;
+z-index: 2;
+}
+
+/*container3*/
+
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.container3:hover .overlay {
+  opacity: 0.95;
+    transition: .5s ease;
+}
+
+.container3 .image {
+display: block;
+  width: 400px;
+  height: auto;
+     padding-left: 30px;
+}
+
+/*container4*/
+
+.container4 {
+  position: relative;
+  width: 50%;
+}
+
+.container4:hover .overlay {
+  opacity: 0.95;
+    transition: .5s ease;
+}
+
+.container4 .image {
+display: block;
+  width: 400px;
+  height: auto;
+     padding-left: 30px;
+}
+
+/*container5*/
+
+.container5 {
+  position: relative;
+  width: 50%;
+}
+
+.container5:hover .overlay {
+  opacity: 0.95;
+    transition: .5s ease;
+}
+
+.container5 .image {
+display: block;
+  width: 400px;
+  height: auto;
+     padding-left: 30px;
+}
+
+/*container6*/
+
+.container6 {
+  position: relative;
+  width: 50%;
+}
+
+.container6:hover .overlay {
+  opacity: 0.95;
+    transition: .5s ease;
+}
+
+.container6 .image {
+display: block;
+  width: 400px;
+  height: auto;
+     padding-left: 30px;
+}
+
+/*other*/
+.logo {   
+    width: 100px;
+    padding-left: 48px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    top: -100px;
+    
+}
+
+.shape1 {
+    width:490px;
+    position: absolute;
+    left: 15px;
+    top: 245px;
+    z-index: 1;
+}
+
+.shape2 {
+    width:490px;
+    position: absolute;
+    top: 245px;
+    left: 475px;
+    z-index: 1;
+}
+
+.shape3 {
+    width:490px;
+    position: absolute;
+    top: 245px;
+    padding-left: 927px;
+    z-index: 1;
+}
+
+.shape4 {
+    width:490px;
+    position: absolute;
+    top: 550px;
+    float: left;
+    left: 15px;
+    z-index: 1;
+}
+
+
+.shape5 {
+    width:490px;
+    position: absolute;
+    top: 550px;
+    float: left;
+    left: 475px;
+    z-index: 1;
+}
+
+
+.shape6 {
+    width:490px;
+    position: absolute;
+    top: 550px;
+    float: left;
+    left: 935px;
+    z-index: 1;
+}
+
+
+
 /*menu code*/
 
 .active {
     background-color:#B0CFAD;
 }
-
-img.image {   
-    width: 200px;
-    padding-left: 30px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    
-}
-
 
 body {
     background-color: #EDF6E9;
@@ -58,26 +285,15 @@ p {
 }
 
 div.menu {
-    background-color: lightpink;
-    text-align: left;    
+    text-align: left;
+    width: 1225px;
+    padding-left: 10px;
+    padding-top: 48px;
+    float: right;
 }
 
 /*responsive*/  
 @media only screen and (max-width: 600px) {
 
-
-    
-img.image {   
-    width: 100px;
-    padding-left: 20px;
-    
-}
-       
-h1 {
-    font-family: 'Spartan', sans-serif;
-    font-weight: 400;
-    color: #5FA66B;
-    font-size: 20px;
-    padding-left: 20px;
 }
 
