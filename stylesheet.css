@@ -33,22 +33,13 @@ li a:hover {
 .container {
   position: relative;
   width: 50%;
-    float: left;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 20px;
+    border-color: blue; !important;
 }
 
-.overlay {
-  position: absolute;
-  top: 40;
-  bottom: 0;
-  left: 48px;
-  right: 0;
-  height: 250px;
-  width: 400px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #A58FC3;
-z-index: 2;
-}
 
 
 .container:hover .overlay {
@@ -62,6 +53,7 @@ display: block;
   height: auto;
     padding-top: 40px;
      padding-left: 48px;
+    
 }
 
 .text {
@@ -85,27 +77,19 @@ display: block;
     transition: .5s ease;
 }
 
-
-
-/*container2*/
-
-.container2 {
-  position: relative;
-  width: 50%;
-    float: left;
-}
-
-.container2:hover .overlay2 {
-  opacity: 0.95;
-    transition: .5s ease;
-}
-
-.container2 .image {
-display: block;
+/*overlay*/
+.overlay {
+  position: absolute;
+  top: 40;
+  bottom: 0;
+  left: 48px;
+  right: 0;
+  height: 250px;
   width: 400px;
-  height: auto;
-padding-top: 40px;
-float: left;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A58FC3;
+z-index: 2;
 }
 
 .overlay2 {
@@ -120,154 +104,6 @@ float: left;
   transition: .5s ease;
   background-color: #5FA66B;
 z-index: 2;
-}
-
-/*container3*/
-
-.container3 {
-  position: relative;
-  width: 50%;
-    float: left;
-}
-
-.container3:hover .overlay {
-  opacity: 0.95;
-    transition: .5s ease;
-}
-
-.container3 .image {
-display: block;
-  width: 400px;
-  height: auto;
-     padding-left: 30px;
-}
-
-/*container4*/
-
-.container4 {
-  position: relative;
-  width: 50%;
-    float: left;
-}
-
-.container4:hover .overlay2 {
-  opacity: 0.95;
-    transition: .5s ease;
-}
-
-.container4 .image {
-display: block;
-  width: 400px;
-  height: auto;
-     padding-left: 30px;
-}
-
-/*container5*/
-
-.container5 {
-  position: relative;
-  width: 50%;
-     float: left;
-}
-
-.container5:hover .overlay {
-  opacity: 0.95;
-    transition: .5s ease;
-}
-
-.container5 .image {
-display: block;
-  width: 400px;
-  height: auto;
-     padding-left: 30px;
-}
-
-/*container6*/
-
-.container6 {
-  position: relative;
-  width: 50%;
-     float: left;
-}
-
-.container6:hover .overlay2 {
-  opacity: 0.95;
-    transition: .5s ease;
-}
-
-.container6 .image {
-display: block;
-  width: 400px;
-  height: auto;
-     padding-left: 30px;
-}
-
-/*containerx*/
-
-.containerx {
-    display: inline-block;
-    width: 400px;
-    height: 400px;
-    border: 20px;
-    border-color: blue; !important;
-    
-}
-
-.containerx1 {
-    display: inline-block;
-    width: 400px;
-    height: 400px;
-    border: 20px;
-    border-color: blue; !important;
-    
-}
-
-.overlay {
-  position: absolute;
-  top: 40;
-  bottom: 0;
-  left: 48px;
-  right: 0;
-  height: 250px;
-  width: 400px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #A58FC3;
-z-index: 1;
-}
-
-
-.containerx:hover .overlay {
-  opacity: 0.95;
-    transition: .5s ease;
-}
-
-.containerx .image {
-display: block;
-  width: 400px;
-  height: 400px;
-    padding: 30px;
-}
-
-.text {
-  color: #EDF6E9;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 400;
-  font-size: 30px;
-    opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-.image:hover {
-    opacity: 0.3;
-    transition: .5s ease;
 }
 
 
@@ -317,3 +153,4 @@ div.menu {
 @media only screen and (max-width: 600px) {
 
 }
+
