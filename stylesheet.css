@@ -249,8 +249,8 @@ div.menu {
     font-family: 'Spartan', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    width: 400px;
-    margin-left: 25px;
+    width: 600px;
+    margin-right: 35px;
     line-height: 25px;
 }
 
@@ -275,7 +275,7 @@ div.menu {
     font-weight: 200;
     font-size: 20px;
     width: 400px;
-    margin-left: 25px;
+    margin-right: 35px;
     color: #5FA66B;
 
 .pdf a {
