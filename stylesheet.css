@@ -245,8 +245,9 @@ div.menu {
 .type2 {
     font-family: 'Spartan', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     width: 400px;
+    text-align:left;
 }
 
 .title {
