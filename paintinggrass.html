@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Be Studios </title>
+        <link rel="stylesheet" href="stylesheet.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+</style>
+
+    </head>
+
+    <body>
+        <div class="menu">
+        <ul>
+            <li> <a href="index.html"> portfolio </a> </li>
+            <li> <a href="about.html"> about </a> </li>
+        </ul>
+    </div>
+
+        
+        <div class="logo" >
+        <img src="https://breanneevans.files.wordpress.com/2021/12/looponce.gif">     
+        </div>
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rgSmlxjmfRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p> Warm Filter </p>
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ImYFx7oQlgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p> Cool Filter </p>   
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OSLmE9zNbCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p> Interaction Demonstration </p> 
+       
+        <div class="title">
+        <h1> Painting Grass </h1>
+        </div>
+        
+        <div class="type">
+        <p> Painting Grass is a video with random generative and interactive effects that could be played for a length of time as a part of a larger installation appreciating movement. Users can start and stop the video as well as change between either a warm or cool state. The opacities of the colored filters in each state are audio reactive and their shades are randomly generated within a controlled range of values. The process started with capturing a video of prairie grasses blowing in the wind. I then used Premiere and Photoshop to extract 12 fps for 4 seconds of video and cropped them to a printable scale. Once the 48 frames were printed, I painted colored lines on top of them and scanned them back into the computer at 600dpi before reassembling them into a stop-motion animated video. I then coded a generative patch in resolume wire with start and stop triggers that randomly changes the speed of the video over time and rewinds the video after about 3 minutes. The wire patch detects the objects in the video and adds colored filters to them. I then mounted the wire patch into resolume avenue so that users can interact with it. I pulled audio from the original video capture and modulated it in metasounds. I added random stereo delay and a high pass filter to the wav. I then crossfaded it with another version of the wav that had a random pitch shift, and passed it through a state variable filter, and a random flanger. The crossfade value was randomized. Finally, I mixed this with a random sine wave which was multiplied with noise and passed through a dynamic filter with random oscillations. I exported 2 minutes of the sound and imported it to resolume avenue. In the wire patch I added two float-in nodes that control the opacities of the colored filters. I then changed the settings for these opacities in avenue so that they would be reactive to the audio.</p>
+        </div>
+
+
+
+    </body>
+
+
+</html>
