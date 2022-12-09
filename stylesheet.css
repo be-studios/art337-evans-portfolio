@@ -243,12 +243,15 @@ div.menu {
 }
 
 .type2 {
+   position: relative;
+    display: inline-block;
+    text-align: left;
     font-family: 'Spartan', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    width: 600px;
-    text-align:left;
-  margin-right: 75px;
+    width: 400px;
+    margin-left: 75px;
+    line-height: 16px;
 }
 
 .title {
@@ -265,14 +268,15 @@ div.menu {
 
 .title2 {
  
+   position: relative;
+    display: inline-block;
     text-align: left;
     font-family: 'Spartan', sans-serif;
     font-weight: 200;
     font-size: 20px;
     width: 400px;
+    margin-left: 75px;
     color: #5FA66B;
-    margin-right: 75px;
-}
 
 .pdf a {
     text-decoration: none;
