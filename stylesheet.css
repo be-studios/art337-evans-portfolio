@@ -132,7 +132,6 @@ img {
 }
 
 
-
 /*responsive*/
 
 @media only screen and (max-width: 1094px) {
@@ -241,6 +240,16 @@ div.menu {
     width: 400px;
     margin-right: 85px;
     line-height: 16px;
+}
+
+.type2 {
+   position: relative;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 400px;
 }
 
 .title {
