@@ -247,10 +247,10 @@ div.menu {
     display: inline-block;
     text-align: left;
     font-family: 'Spartan', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
-    width: 600px;
-    margin-right: 35px;
+    width: 800px;
+    margin-left: 75px;
     line-height: 25px;
 }
 
@@ -275,7 +275,7 @@ div.menu {
     font-weight: 200;
     font-size: 20px;
     width: 400px;
-    margin-right: 35px;
+    margin-left: 75px;
     color: #5FA66B;
 
 .pdf a {
