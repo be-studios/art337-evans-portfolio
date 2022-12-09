@@ -250,8 +250,8 @@ div.menu {
     font-weight: 400;
     font-size: 16px;
     width: 400px;
-    margin-left: 75px;
-    line-height: 16px;
+    margin-left: 25px;
+    line-height: 20px;
 }
 
 .title {
@@ -275,7 +275,7 @@ div.menu {
     font-weight: 200;
     font-size: 20px;
     width: 400px;
-    margin-left: 75px;
+    margin-left: 25px;
     color: #5FA66B;
 
 .pdf a {
