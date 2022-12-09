@@ -262,6 +262,16 @@ div.menu {
     color: #5FA66B;
 }
 
+.title2 {
+ 
+    text-align: left;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    width: 400px;
+    color: #5FA66B;
+}
+
 .pdf a {
     text-decoration: none;
     position: relative;
