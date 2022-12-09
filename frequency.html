@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Be Studios </title>
+        <link rel="stylesheet" href="stylesheet.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+</style>
+
+    </head>
+
+    <body>
+        <div class="menu">
+        <ul>
+            <li> <a href="index.html"> portfolio </a> </li>
+            <li> <a href="about.html"> about </a> </li>
+        </ul>
+    </div>
+
+        
+        <div class="logo" >
+        <img src="https://breanneevans.files.wordpress.com/2021/12/looponce.gif">     
+        </div>
+        
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/kSXXRf-RRZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+        <div class="title">
+        <h1> Mouth Frequencies </h1>
+        </div>
+        
+        <div class="type">
+<p>This piece explores an alternate way for users to create sound with their mouths. As users move their faces around the screen, the movement of the mouth is tracked live through a webcam. This movement is used to modulate the frequencies of generative sound. Users are able to create sound without opening their mouths. Using Max MSP/Jitter, attrui attached to brcosa and hue nodes affect the hue, brightness, contrast, and saturation of the user’s image live. This allows the user’s mouth to stand out from the background and appear bright red. Value ranges are set and a findbounds node looks for cells that contain values between the min and max set. The node reports the region where high red values appear. This location data is put through an equation that finds the center of the colored region’s bounding box. These values then modulate the frequencies of sinewave oscillators as they play sound.</p>
+      </div>
+        
+
+   
+  <img src="https://breanneevans.files.wordpress.com/2022/12/maxpatch-1.png" class="scale" />
+
+       
+
+
+    </body>
+
+
+</html>
